@@ -102,29 +102,12 @@ a:hover{
     display: flex;
 }
 
-#izquierda{
-    background-color: rgb(21, 180, 29);
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-     float: left;
-     margin-top: -820px;
-}
-
-#derecha{
-    background-color: rgb(21, 180, 29);
-   display: flex;
-   flex-direction: column;
-   justify-content: right;
-    float: right;
-    margin-top: -820px;
-}
 
 #tienda{
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-   margin-top: 50px;
+    margin-top: 50px;
 }
 
 #tienda iframe{
@@ -155,110 +138,7 @@ footer img{
     border-radius: 10px;
    
 }
-@media (max-width: 800px){
- 
-    
-   
-    #izquierda img{
-        width: 85px;
-        height: 21px;
-       margin-top: 40px;
-    }
-    #derecha img{
-        margin-top: 40px;
-        width: 85px;
-        height: 21px;
-    }
-    #tienda img{
-        width: 250px;
-        height: 140px;
-        display: flex;
-        justify-content: center;
-        margin: auto;
-        margin-top: 60px;
-    }.digipromo img{
-        width: 350px;
-        height: 120px;
-    }
-    
-   
-}
-@media(max-width: 1200px){
-    #carrusel img{
-        height: 121px;
-        width: 500px;
-        justify-content: center;
-        display: flex;
-    }
-    #tienda img{
-       
-        display: flex;
-        justify-content: center;
-        margin: auto;
-        margin-top: 10px;
-    }
-    #tienda{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    #tienda iframe{
-        display: flex;
-        justify-content: center;
-        margin: auto;
-        margin-top: 50px;
-        width: 300px;
-        height: 150px;
-    }
-    nav ul{
-        display: block;
-        
-    }nav{
-        display: flex;
-        justify-content: center;
-    }
-    footer img{
-        width: 600px;
-        height: 66px;
-    }
-    .digipromo img{
-        margin-top: 50px;
-    }
-}
-@media (max-width: 600px){
-    footer img{
-        width: 450px;
-        height: 49px;
-    }  #izquierda img{
-        width: 75px;
-        height: 18px;
-       margin-top: 40px;
-    }
-    #derecha img{
-        margin-top: 40px;
-        width: 75px;
-        height: 18px;
-    }
-}
-@media(max-width: 700px){
-    #carrusel img{
-        width: 300px;
-        height: 73px;
-    }
-   
-}
-@media (max-width: 530px){
-    #izquierda img{
-        width: 60px;
-        height: 14px;
-       margin-top: 40px;
-    }
-    #derecha img{
-        margin-top: 40px;
-        width: 60px;
-        height: 14px;
-    }
-}
+
 .p1{
     width: 70%;
     display: flex;
@@ -289,31 +169,62 @@ footer img{
         
     }
       
-}@media(max-width: 1050px){
-    #izquierda img{
-        width: 85px;
-        height: 21px;
-       margin-top: 40px;
-    }
-    #derecha img{
-        margin-top: 40px;
-        width: 85px;
-        height: 21px;
-    }
-}@media(max-width: 600px){
-    #izquierda img{
-        width: 60px;
-        height: 14px;
-       margin-top: 40px;
-    }
-    #derecha img{
-        margin-top: 40px;
-        width: 60px;
-        height: 14px;
-    }
 }
 
+@media only screen and (max-width : 900px) {
+    nav ul {
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        margin-left: -38px;
+        justify-content: center;
+    }
+    
+    nav ul li {
+        --c: rgb(21, 180, 29);
+        color: var(--c);
+        font-size: 16px;
+        border: 0.3em solid var(--c);
+        border-radius: 0.5em;
+        width: 12em;
+        height: 3em;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-family: sans-serif;
+        letter-spacing: 0.1em;
+        text-align: center;
+        line-height: 3em;
+        position: relative;
+        overflow: hidden;
+        z-index: 1;
+        transition: 0.5s;
+        margin: 1em;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
 
-      
+    #carrusel{
+        margin-top: 40px;
+    }
 
+    #carrusel img{
+        align-items: center;
+        margin-left: 40px;
+    }
+    
+    #tienda{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        align-items: center;
+    }
 
+    #tienda iframe{
+        margin-top: 35px;
+    }
+
+    footer img{
+        width: 100%;
+        height: 100%;
+    }
+}
