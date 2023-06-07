@@ -241,10 +241,20 @@ footer img{
         flex-direction: column;
         margin-top: 50px;
         align-items: center;
+        
+    }
+
+    #tienda img{
+        align-items: center;
+        width: 90%;
+        height: 90%;
     }
 
     #tienda iframe{
         margin-top: 35px;
+        align-items: center;
+        width: 90%;
+        height: 90%;
     }
 
     .digipromo img{
