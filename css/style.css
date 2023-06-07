@@ -4,6 +4,12 @@ body {
     background-image: url(../fotos/545755.jpg);
 }
 
+#barra img{
+    display: block;
+    width: 100%;
+    height: 100px;
+}
+
 nav ul {
     list-style-type: none;
     display: flex;
@@ -173,8 +179,15 @@ footer img{
 
 @media only screen and (max-width : 900px) {
 
-    body{
-        margin-left: 40px;
+
+    #barra{
+        opacity: 0%;
+    }
+
+    #barra2 img{
+        display: block;
+        width: 100%;
+        height: 100px;
     }
 
     nav ul {
@@ -215,8 +228,8 @@ footer img{
 
     #carrusel img{
         align-items: center;
-        width: 95%;
-        height: 95%;
+        width: 90%;
+        height: 90%;
     }
     
     #tienda{
@@ -229,8 +242,8 @@ footer img{
     #tienda iframe{
         margin-top: 35px;
     }
-    
-     .digipromo img{
+
+    .digipromo img{
         height: 85%;
         width: 85%;
     }
