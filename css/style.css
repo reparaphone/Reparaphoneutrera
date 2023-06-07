@@ -172,11 +172,11 @@ footer img{
 }
 
 @media only screen and (max-width : 900px) {
-    
+
     body{
-        margin-left: 200px;
+        margin-left: 40px;
     }
-    
+
     nav ul {
         list-style-type: none;
         display: flex;
@@ -215,7 +215,6 @@ footer img{
 
     #carrusel img{
         align-items: center;
-        margin-left: 40px;
         width: 90%;
         height: 90%;
     }
