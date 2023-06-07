@@ -229,6 +229,11 @@ footer img{
     #tienda iframe{
         margin-top: 35px;
     }
+    
+     .digipromo img{
+        height: 85%;
+        width: 85%;
+    }
 
     footer img{
         width: 100%;
