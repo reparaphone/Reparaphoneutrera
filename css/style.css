@@ -10,6 +10,10 @@ body {
     height: 100px;
 }
 
+#barra2 img{
+    display: none;
+}
+
 nav ul {
     list-style-type: none;
     display: flex;
@@ -180,8 +184,8 @@ footer img{
 @media only screen and (max-width : 900px) {
 
 
-    #barra{
-        opacity: 0%;
+    #barra img{
+        display: none;
     }
 
     #barra2 img{
