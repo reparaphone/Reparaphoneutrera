@@ -172,6 +172,11 @@ footer img{
 }
 
 @media only screen and (max-width : 900px) {
+    
+    body{
+        margin-left: 40px;
+    }
+    
     nav ul {
         list-style-type: none;
         display: flex;
