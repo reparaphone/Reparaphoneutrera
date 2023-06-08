@@ -3,6 +3,10 @@ body{
 
 }
 
+#barra2 img{
+    display: none;
+}
+
 nav{
     
     display: flex;
