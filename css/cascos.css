@@ -16,7 +16,6 @@ nav{
     
     display: flex;
     justify-content: center;
-    background-color: white;
 }
 
 
@@ -90,10 +89,8 @@ nav ul li span:nth-child(3) {
 nav ul li span:nth-child(4) {
     --n: 4;
 }nav a:hover{
-    color: rgb(255, 255, 255);   
-}body{
-    background-image: url(../fotos/fondo2.jpg);
-
+    color: rgb(255, 255, 255);  
+     
 }#logoapple{
     margin-top: 100px;
     display: flex;
@@ -128,7 +125,6 @@ nav ul li span:nth-child(4) {
 .fila1 div{
     box-shadow: 1px 1px 20px 7px black;
     border-radius: 15px;
-    background-color: white;
     text-align: center;
     padding: 10px;
 }
@@ -145,6 +141,7 @@ ul{
     box-shadow: 1px 1px 20px 7px black;
     border-radius: 15px;
     margin-top: 100px;
+    background-color: white;
 }
 .nintendologo{
     display: flex;
@@ -156,43 +153,20 @@ ul{
     border-radius: 15px;
     margin-top: 100px;
 }
-@media (max-width: 800px){
-    nav ul{
-        display: block;
-        
-    }
-   .fila1 {
-        display: flex;
-        flex-direction: column;
-        margin-top: 40px;
-    }
-    
-    .fila1 div{
-        display: flex;
-        justify-content: space-around;
-        margin: auto;
-        margin-top: 40px;
-        width: 90%;
-    }
-    footer img{
-        width: 600px;
-        height: 66px;
-    }
-}
+
+
 footer{
     display: flex;
     justify-content: center;
     margin-top: 150px;
-}@media (max-width: 600px){
-    footer img{
-        width: 450px;
-        height: 49px;
-    }
+
 }
 
 a p{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
+
 .indice1 div{
     padding: 35px;
     transition: transform .8s;
@@ -258,6 +232,101 @@ a p{
 .indice1 div:hover{
     transform: scale(1.1); 
 }
+#apple{
+    display: flex;
+    justify-content: center;
+}
+.xiaomilogo{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.xiaomilogo img{
+    box-shadow: 1px 1px 20px 7px black;
+    border-radius: 15px;
+    background-color: white;
+}
 footer img{
     border-radius: 10px;
 }
+.mi9lite{
+    padding: 20px;
+}
+.redmi9c{
+    padding: 10px;
+}
+
+
+@media only screen and (max-width : 900px) {
+
+
+    #barra img{
+        display: none;
+    }
+
+    #barra2 img{
+        display: block;
+        width: 100%;
+        height: 100px;
+    }
+
+    nav ul {
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        margin-left: -38px;
+        justify-content: center;
+
+    }
+    
+    nav ul li {
+        --c: rgb(21, 180, 29);
+        color: var(--c);
+        font-size: 16px;
+        border: 0.3em solid var(--c);
+        border-radius: 0.5em;
+        width: 12em;
+        height: 3em;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-family: sans-serif;
+        letter-spacing: 0.1em;
+        text-align: center;
+        line-height: 3em;
+        position: relative;
+        overflow: hidden;
+        z-index: 1;
+        transition: 0.5s;
+        margin: 1em;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .indice{
+        margin-left: -35px;
+    }
+
+    .indice1{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .fila1{
+        display: flex;
+        flex-direction: column;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .fila1 div{
+       margin-top: 25px;
+       background-color: white;
+    }
+
+    footer img{
+        width: 100%;
+        height: 100%;
+        
+    }
+} 
