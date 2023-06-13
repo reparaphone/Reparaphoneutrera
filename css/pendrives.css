@@ -1,13 +1,21 @@
 body{
-    background-image: url(../fotos/fondo2.jpg);
+    background-image: url("../fotos2/fondo_pagina.jpg");
+}
 
+#barra img{
+    display: block;
+    width: 100%;
+    height: 100px;
+}
+
+#barra2 img{
+    display: none;
 }
 
 nav{
     
     display: flex;
     justify-content: center;
-    background-color: white;
 }
 
 
@@ -81,47 +89,109 @@ nav ul li span:nth-child(3) {
 nav ul li span:nth-child(4) {
     --n: 4;
 }nav a:hover{
-    color: rgb(255, 255, 255);   
-}
-.indice{
+    color: rgb(255, 255, 255);  
+     
+}#logoapple{
+    margin-top: 100px;
     display: flex;
-    text-align: center;
+    justify-content: center;
+}
+
+#logoapple img{
+    justify-content: center;
+    box-shadow: 1px 1px 20px 7px black;
+    border-radius: 15px;
+}
+.apple{
+   
+    display: flex;
+    justify-content: center;
+}
+    
+.apple img{
+    justify-content: center;
+    box-shadow: 1px 1px 20px 7px black;
+    border-radius: 15px;
+    margin-top: 100px;
+}
+.fila1{
+    display: flex;
     flex-direction: row;
     justify-content: space-around;
+   margin-top: 100px;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+
+}
+.fila1 div{
+    box-shadow: 1px 1px 20px 7px black;
+    border-radius: 15px;
+    text-align: center;
+    padding: 10px;
+}
+ul{
+    text-align: left;
+}.samsunglogo{
+   
+    display: flex;
+    justify-content: center;
+}
+    
+.samsunglogo img{
+    justify-content: center;
+    box-shadow: 1px 1px 20px 7px black;
+    border-radius: 15px;
+    margin-top: 100px;
     background-color: white;
-}.indice a{
-    text-decoration: none;
-    color: black;
 }
-.indice1 div{
-    transition: transform .8s;
+.nintendologo{
+    display: flex;
+    justify-content: center;
 }
-.indice1 div:hover{
-    transform: scale(1.1); 
+.nintendologo img{
+    justify-content: center;
+    box-shadow: 1px 1px 20px 7px black;
+    border-radius: 15px;
+    margin-top: 100px;
 }
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+
+}
+
 a p{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
+
 .indice1 div{
-    padding: 25px;
+    padding: 35px;
     transition: transform .8s;
     box-shadow: 1px 1px 20px 7px rgb(27, 117, 0);
     border-radius: 20px;
-    margin-right: 25px;
 }
+
+
+
 
 .indice a{
     margin-left: 50px;
     margin-right: 20px;
+    height: 220px;
+    border-radius: 20px;
 }
 
 .indice1{
     display: flex;
     flex-direction: row;
-    animation-duration: 3s;
-    animation-name: slidein;
     justify-content: space-around;
     align-content: flex-end;
+    margin-top: 15px;
+    animation-duration: 3s;
+    animation-name: slidein;
 }
 
 @keyframes slidein {
@@ -136,100 +206,127 @@ a p{
     }
   }
 
-@media(max-width: 1300px){
-    .indice1 {
-        display: flex;
-        flex-direction: column;
-        align-self: flex-end;
-        position: relative;
-        width: 40%;
-        margin-top: 250px;
-    }
-    
-    .indice1 div{
-        display: flex;
-        justify-content: space-around;
-       
-    }.indice2 img{
-       
-        position: absolute;
-        margin-top: 20px;
-        text-align: center;
-        margin-left: -100px;
-    }
-    
-}
 .indice2 img{
     display: flex;
     box-shadow: 1px 1px 20px 7px black;
     border-radius: 15px;
-}@media (max-width: 800px){
-    nav ul{
-        display: block;
-        
-    }
-    footer img{
-        width: 600px;
-        height: 66px;
-    }
 }
-footer img{
-    border-radius: 10px;
-}@media (max-width: 600px){
-    footer img{
-        width: 450px;
-        height: 49px;
-    }
-}
-footer{
+.indice{
     display: flex;
-    justify-content: center;
-    margin-top: 150px;
-}
-.fila1{
-    display: flex;
+    text-align: center;
     flex-direction: row;
     justify-content: space-around;
-   margin-top: 100px;
-   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 
 }
-.fila1 div{
+
+.indice1 a{
+    background-color: white;
+}
+
+.indice a{
+    text-decoration: none;
+    color: black;
+}.indice1 div{
+    transition: transform .8s;
+}
+.indice1 div:hover{
+    transform: scale(1.1); 
+}
+#apple{
+    display: flex;
+    justify-content: center;
+}
+.xiaomilogo{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.xiaomilogo img{
     box-shadow: 1px 1px 20px 7px black;
     border-radius: 15px;
     background-color: white;
-    text-align: center;
+}
+footer img{
+    border-radius: 10px;
+}
+.mi9lite{
+    padding: 20px;
+}
+.redmi9c{
     padding: 10px;
 }
-.pendrive32gb{
-    padding: 10px;
-}
-.microsd64gb{
-    padding: 10px;
-}
-@media (max-width: 600px){
-    footer img{
-        width: 450px;
-        height: 49px;
+
+
+@media only screen and (max-width : 900px) {
+
+
+    #barra img{
+        display: none;
     }
-}
-@media (max-width: 800px){
-    nav ul{
+
+    #barra2 img{
         display: block;
-        
+        width: 100%;
+        height: 100px;
     }
-   .fila1 {
+
+    nav ul {
+        list-style-type: none;
         display: flex;
         flex-direction: column;
-        margin-top: -3px;
+        margin-left: -38px;
+        justify-content: center;
+
     }
     
-    .fila1 div{
-        display: flex;
-        justify-content: space-around;
-        margin: auto;
+    nav ul li {
+        --c: rgb(21, 180, 29);
+        color: var(--c);
+        font-size: 16px;
+        border: 0.3em solid var(--c);
+        border-radius: 0.5em;
+        width: 12em;
+        height: 3em;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-family: sans-serif;
+        letter-spacing: 0.1em;
+        text-align: center;
+        line-height: 3em;
+        position: relative;
+        overflow: hidden;
+        z-index: 1;
+        transition: 0.5s;
+        margin: 1em;
+        margin: 0 auto;
         margin-top: 20px;
-        width: 90%;
     }
-   
-}
+
+    .indice{
+        margin-left: -35px;
+    }
+
+    .indice1{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .fila1{
+        display: flex;
+        flex-direction: column;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .fila1 div{
+       margin-top: 25px;
+       background-color: white;
+    }
+
+    footer img{
+        width: 100%;
+        height: 100%;
+        
+    }
+} 
