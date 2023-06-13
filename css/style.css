@@ -257,13 +257,16 @@ footer img{
         height: 90%;
     }
 
-    .digipromo img{
-        height: 70%;
-        width: 70%;
-    }
+   
 
     footer img{
         width: 100%;
         height: 100%;
     }
+@media only screen and (max-width: 600px){
+    .digipromo img{
+        height: 80%;
+        width: 80%;
+    }
+}
 }
