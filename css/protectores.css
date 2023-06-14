@@ -329,4 +329,28 @@ footer img{
         height: 100%;
         
     }
-} 
+}.lglogo{
+   
+    display: flex;
+    justify-content: center;
+}
+    
+.lglogo img{
+    justify-content: center;
+    box-shadow: 1px 1px 20px 7px black;
+    border-radius: 15px;
+    margin-top: 100px;
+    background-color: white;
+}.sonylogo{
+   
+    display: flex;
+    justify-content: center;
+}
+    
+.sonylogo img{
+    justify-content: center;
+    box-shadow: 1px 1px 20px 7px black;
+    border-radius: 15px;
+    margin-top: 100px;
+    background-color: white;
+}
