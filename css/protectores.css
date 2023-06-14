@@ -91,16 +91,17 @@ nav ul li span:nth-child(4) {
 }nav a:hover{
     color: rgb(255, 255, 255);  
      
-}#logoapple{
+}.applelogo{
     margin-top: 100px;
     display: flex;
     justify-content: center;
 }
 
-#logoapple img{
+.applelogo img{
     justify-content: center;
     box-shadow: 1px 1px 20px 7px black;
     border-radius: 15px;
+    background-color: white;
 }
 .apple{
    
