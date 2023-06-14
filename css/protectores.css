@@ -340,6 +340,7 @@ footer img{
     }
         
     .lglogo img{
+        display: flex;
         justify-content: center;
         box-shadow: 1px 1px 20px 7px black;
         border-radius: 15px;
@@ -353,6 +354,7 @@ footer img{
     }
         
     .sonylogo img{
+        display: flex;
         justify-content: center;
         box-shadow: 1px 1px 20px 7px black;
         border-radius: 15px;
@@ -366,6 +368,7 @@ footer img{
     }
         
     .alcatellogo img{
+        display: flex;
         justify-content: center;
         box-shadow: 1px 1px 20px 7px black;
         border-radius: 15px;
