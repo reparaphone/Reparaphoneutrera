@@ -315,8 +315,7 @@ footer img{
     .fila1{
         display: flex;
         flex-direction: column;
-        margin-left: 40px;
-        margin-right: 40px;
+   
     }
 
     .fila1 div{
