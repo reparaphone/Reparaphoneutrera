@@ -345,7 +345,7 @@ footer img{
         border-radius: 15px;
         margin-top: 100px;
         background-color: white;
-         width: 50%;
+         width: 30%;
     }.sonylogo{
        
         display: flex;
@@ -358,7 +358,7 @@ footer img{
         border-radius: 15px;
         margin-top: 100px;
         background-color: white;
-         width: 50%;
+         width: 30%;
     }.alcatellogo{
        
         display: flex;
@@ -371,5 +371,5 @@ footer img{
         border-radius: 15px;
         margin-top: 100px;
         background-color: white;
-        width: 50%;
+        width: 30%;
     }
