@@ -352,3 +352,16 @@ footer img{
     text-align: center;
     padding: 10px;
 }
+.alcatellogo{
+   
+    display: flex;
+    justify-content: center;
+}
+    
+.alcatellogo img{
+    justify-content: center;
+    box-shadow: 1px 1px 20px 7px black;
+    border-radius: 15px;
+    margin-top: 100px;
+    background-color: white;
+}
