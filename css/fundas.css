@@ -101,6 +101,7 @@ nav ul li span:nth-child(4) {
     justify-content: center;
     box-shadow: 1px 1px 20px 7px black;
     border-radius: 15px;
+    background-color: white;
 }
 .apple{
    
