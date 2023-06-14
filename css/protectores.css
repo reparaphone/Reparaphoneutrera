@@ -102,17 +102,32 @@ nav ul li span:nth-child(4) {
     box-shadow: 1px 1px 20px 7px black;
     border-radius: 15px;
 }
-.applelogo{
+.apple{
+   
     display: flex;
     justify-content: center;
-    margin-top: 40px;
 }
-.applelogo img{
+    
+.apple img{
+    justify-content: center;
     box-shadow: 1px 1px 20px 7px black;
     border-radius: 15px;
-    background-color: white;
+    margin-top: 100px;
 }
+.fila1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   margin-top: 100px;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 
+}
+.fila1 div{
+    box-shadow: 1px 1px 20px 7px black;
+    border-radius: 15px;
+    text-align: center;
+    padding: 10px;
+}
 ul{
     text-align: left;
 }.samsunglogo{
@@ -313,55 +328,4 @@ footer img{
         height: 100%;
         
     }
-} .lglogo{
-   
-    display: flex;
-    justify-content: center;
-}
-    
-.lglogo img{
-    justify-content: center;
-    box-shadow: 1px 1px 20px 7px black;
-    border-radius: 15px;
-    margin-top: 100px;
-    background-color: white;
-}.sonylogo{
-   
-    display: flex;
-    justify-content: center;
-}
-    
-.sonylogo img{
-    justify-content: center;
-    box-shadow: 1px 1px 20px 7px black;
-    border-radius: 15px;
-    margin-top: 100px;
-    background-color: white;
-}.fila1{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-   margin-top: 100px;
-   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
-
-}
-.fila1 div{
-    box-shadow: 1px 1px 20px 7px black;
-    border-radius: 15px;
-    text-align: center;
-    padding: 10px;
-    background-color: white;
-}
-.alcatellogo{
-   
-    display: flex;
-    justify-content: center;
-}
-    
-.alcatellogo img{
-    justify-content: center;
-    box-shadow: 1px 1px 20px 7px black;
-    border-radius: 15px;
-    margin-top: 100px;
-    background-color: white;
-}
+} 
